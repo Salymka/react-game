@@ -1,0 +1,33 @@
+.header__wrapper {
+  width: 100%;
+  height: 100px;
+  background-color: #252121;
+}
+
+.header {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__tools {
+  display: flex;
+  align-items: center;
+}
+
+.header__newGameBtn {
+  margin-left: 20px;
+  padding: 10px 15px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+  border: 1px solid red;
+
+  &:hover {
+    background-color: #4842427e;
+  }
+}

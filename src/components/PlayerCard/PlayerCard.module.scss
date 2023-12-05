@@ -1,0 +1,31 @@
+.playerCard {
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.playerCard__playerName {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: start;
+  background-color: #252121;
+  color: red;
+  border-top-left-radius: 3px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.playerCard__figure {
+  margin-top: 10px;
+}
+
+.playerCard__timer {
+  width: 100%;
+  margin-top: 10px;
+}

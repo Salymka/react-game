@@ -1,0 +1,40 @@
+// styles.scss
+
+.square {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  aspect-ratio: 1 / 1;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.board_row {
+  display: flex;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 120px;
+  right: 50%;
+}
+
+.board_row + .board_row {
+  border-top: 8px solid #252121;
+}
+
+.square + .square {
+  border-left: 8px solid #252121;
+}
+
+.board {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
